@@ -1,0 +1,25 @@
+[2025-11-21T12:48:37.975Z] ERROR in GET /profile: TypeError: Cannot read properties of undefined (reading 'id')
+    at C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\routes\pageRoutes.js:26:53
+    at Layer.handleRequest (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:582:12)
+    at next (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:186:3)
+[2025-11-21T12:57:52.675Z] ERROR in POST /api/bookings/create-booking: ReferenceError: next is not defined
+    at C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\routes\bookingRoutes.js:39:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-11-21T17:03:35.390Z] ERROR in GET /api/bookings/partial/booking-display-modal: ReferenceError: next is not defined
+    at C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\routes\bookingRoutes.js:173:4
+    at Layer.handleRequest (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:582:12)
+    at next (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Elijah\Documents\CCAPDEV\MP phase 3\CCAPDEV-MCO1-temp\node_modules\router\index.js:186:3)

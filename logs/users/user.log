@@ -1,0 +1,1496 @@
+[2025-11-21T12:47:13.700Z] ANONYMOUS accessed GET /
+[2025-11-21T12:47:14.922Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T12:47:14.951Z] ANONYMOUS accessed GET /login
+[2025-11-21T12:47:16.303Z] ANONYMOUS accessed GET /register
+[2025-11-21T12:47:44.780Z] ANONYMOUS accessed POST /api/auth/register
+[2025-11-21T12:47:45.027Z] ANONYMOUS accessed GET /
+[2025-11-21T12:47:48.852Z] ANONYMOUS accessed GET /login
+[2025-11-21T12:47:57.871Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T12:47:58.052Z] CUSTOMER "Elijah" (ID: 69205f703f7c33e1df0c84f3) accessed GET /
+[2025-11-21T12:47:59.217Z] CUSTOMER "Elijah" (ID: 69205f703f7c33e1df0c84f3) accessed GET /reservation-list
+[2025-11-21T12:47:59.384Z] CUSTOMER "Elijah" (ID: 69205f703f7c33e1df0c84f3) accessed GET /api/bookings/user-bookings?userId=69205f703f7c33e1df0c84f3
+[2025-11-21T12:47:59.974Z] CUSTOMER "Elijah" (ID: 69205f703f7c33e1df0c84f3) accessed GET /reservation
+[2025-11-21T12:48:00.941Z] CUSTOMER "Elijah" (ID: 69205f703f7c33e1df0c84f3) accessed GET /flight-search
+[2025-11-21T12:48:01.083Z] CUSTOMER "Elijah" (ID: 69205f703f7c33e1df0c84f3) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T12:48:37.972Z] ANONYMOUS accessed GET /profile
+[2025-11-21T12:48:38.569Z] ANONYMOUS accessed GET /
+[2025-11-21T12:48:40.809Z] ANONYMOUS accessed GET /login
+[2025-11-21T12:48:49.301Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T12:48:54.973Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal
+[2025-11-21T12:52:10.314Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal
+[2025-11-21T12:55:03.281Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal
+[2025-11-21T12:55:33.983Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal
+[2025-11-21T12:55:34.069Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal?flightId=69206145120c3ddb49b6fe41
+[2025-11-21T12:55:38.292Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal
+[2025-11-21T12:55:38.352Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal?flightId=69206145120c3ddb49b6fe41
+[2025-11-21T12:55:44.781Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal
+[2025-11-21T12:55:44.823Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal?flightId=69206145120c3ddb49b6fe41
+[2025-11-21T12:56:19.834Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal
+[2025-11-21T12:56:19.884Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal?flightId=69206173120c3ddb49b705ef
+[2025-11-21T12:56:19.974Z] ANONYMOUS accessed GET /api/flights/partial/flight-display-modal?flightId=69206145120c3ddb49b6fe41
+[2025-11-21T12:56:31.561Z] ANONYMOUS accessed GET /login
+[2025-11-21T12:56:32.866Z] ANONYMOUS accessed GET /register
+[2025-11-21T12:57:01.181Z] ANONYMOUS accessed POST /api/auth/register
+[2025-11-21T12:57:01.311Z] ANONYMOUS accessed GET /
+[2025-11-21T12:57:04.424Z] ANONYMOUS accessed GET /login
+[2025-11-21T12:57:08.536Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T12:57:08.637Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T12:57:10.537Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-21T12:57:12.484Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T12:57:12.567Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T12:57:12.576Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T12:57:12.640Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T12:57:17.972Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-21T12:57:46.920Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/create-booking
+[2025-11-21T12:57:52.638Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/create-booking
+[2025-11-21T12:57:56.026Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-21T12:57:57.090Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T12:57:57.171Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T12:57:57.178Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T12:57:57.202Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T12:57:59.323Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T12:57:59.387Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T12:57:59.405Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T12:57:59.427Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:00:29.614Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T13:00:29.634Z] ANONYMOUS accessed GET /login
+[2025-11-21T13:00:34.443Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T13:00:34.584Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T13:00:36.526Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:00:36.602Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:00:36.614Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:00:36.767Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:00:55.422Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692061ca120c3ddb49b70ecd
+[2025-11-21T13:00:55.546Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:00:55.622Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:00:55.633Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:00:55.670Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:01:24.733Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692061ca120c3ddb49b70ecd
+[2025-11-21T13:01:24.815Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:01:24.890Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:01:24.898Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:01:24.933Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:01:29.316Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692061ca120c3ddb49b70ecd
+[2025-11-21T13:01:29.367Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:01:29.474Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:01:29.489Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:01:29.514Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:01:36.184Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /profile
+[2025-11-21T13:01:38.733Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /profile
+[2025-11-21T13:01:43.044Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:01:43.135Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:01:43.145Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:01:43.175Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:01:44.695Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-21T13:01:49.988Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T13:01:50.065Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T13:01:50.077Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:01:50.130Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:01:52.097Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-21T13:02:28.674Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/create-booking
+[2025-11-21T13:02:28.748Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:02:33.234Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:02:33.314Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:02:33.324Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:02:33.355Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:02:33.444Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T13:02:33.467Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T13:12:04.156Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-21T13:12:04.923Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T13:12:05.023Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T13:12:05.034Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:12:05.081Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:12:13.591Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-21T13:12:31.887Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T13:12:31.971Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T13:12:31.982Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:12:32.047Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:12:33.165Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-21T13:12:33.917Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T13:12:33.976Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T13:12:33.987Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:12:34.043Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:12:35.829Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-21T13:24:51.278Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:24:51.597Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:24:51.668Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:24:51.760Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:24:51.905Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T13:24:51.933Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T13:37:32.279Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:37:32.411Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:37:32.424Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:37:32.455Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:37:32.565Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T13:37:32.585Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T13:37:33.699Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-21T13:37:34.606Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T13:37:34.672Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T13:37:34.684Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:37:34.742Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:37:37.491Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-21T13:46:50.855Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T13:46:50.914Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T13:46:50.921Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:46:50.948Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:46:56.510Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T13:46:56.571Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T13:46:56.584Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:46:56.603Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T13:46:58.716Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-21T13:47:04.083Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-21T13:47:05.704Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:47:05.759Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:47:05.765Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:47:05.773Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:47:05.810Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T13:47:05.817Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T13:47:59.890Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:47:59.955Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:47:59.964Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:47:59.974Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:48:00.007Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T13:48:00.014Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T13:48:04.898Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692061ca120c3ddb49b70ecd
+[2025-11-21T13:48:04.958Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T13:48:05.021Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T13:48:05.029Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T13:48:05.039Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T13:48:05.074Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T13:48:05.082Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T14:05:31.982Z] ANONYMOUS accessed POST /api/bookings/update-booking/692061ca120c3ddb49b70ecd
+[2025-11-21T14:05:32.034Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T14:05:32.041Z] ANONYMOUS accessed GET /login
+[2025-11-21T14:05:41.794Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T14:05:41.871Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T14:05:45.219Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T14:05:45.269Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T14:05:45.277Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T14:05:45.287Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T14:05:45.330Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T14:05:45.340Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T14:05:50.303Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692061ca120c3ddb49b70ecd
+[2025-11-21T14:05:50.331Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T14:05:50.392Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T14:05:50.399Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T14:05:50.409Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T14:05:50.440Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T14:05:50.445Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T14:05:56.802Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692061ca120c3ddb49b70ecd
+[2025-11-21T14:05:56.843Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T14:05:56.919Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T14:05:56.928Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T14:05:56.941Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T14:05:56.984Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T14:05:56.992Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T14:07:12.184Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692061ca120c3ddb49b70ecd
+[2025-11-21T14:07:12.239Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T14:07:12.306Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T14:07:12.314Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T14:07:12.328Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T14:07:12.398Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T14:07:12.413Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:40:34.212Z] ANONYMOUS accessed POST /api/bookings/cancel-booking/692061ca120c3ddb49b70ecd
+[2025-11-21T15:40:34.522Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T15:40:34.534Z] ANONYMOUS accessed GET /login
+[2025-11-21T15:40:39.497Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T15:40:39.638Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T15:40:40.509Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:40:40.627Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:40:40.649Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:40:40.711Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:40:40.847Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:40:40.857Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:52:50.835Z] ANONYMOUS accessed GET /
+[2025-11-21T15:52:54.733Z] ANONYMOUS accessed GET /login
+[2025-11-21T15:53:03.324Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T15:53:03.470Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T15:53:05.502Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:53:05.584Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:53:05.611Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:53:05.768Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:53:05.920Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:53:05.953Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:54:07.480Z] ANONYMOUS accessed GET /
+[2025-11-21T15:54:10.503Z] ANONYMOUS accessed GET /login
+[2025-11-21T15:54:16.036Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T15:54:16.173Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T15:54:18.014Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:54:18.095Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:54:18.107Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:54:18.185Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:54:18.305Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:54:18.333Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:54:26.258Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T15:54:26.417Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:54:26.513Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:54:26.522Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:54:26.553Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:54:26.631Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:54:26.651Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:57:24.921Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T15:57:24.944Z] ANONYMOUS accessed GET /login
+[2025-11-21T15:57:28.685Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T15:57:28.819Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T15:57:31.488Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:57:31.580Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:57:31.596Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:57:31.676Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:57:31.815Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:57:31.832Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:57:42.610Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T15:57:42.724Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:57:42.797Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:57:42.804Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:57:42.834Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:57:42.928Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:57:42.949Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:57:47.066Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T15:57:47.154Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:57:47.215Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:57:47.236Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:57:47.261Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:57:47.347Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:57:47.365Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:58:11.882Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T15:58:11.902Z] ANONYMOUS accessed GET /login
+[2025-11-21T15:58:15.208Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T15:58:15.334Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T15:58:17.056Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:58:17.134Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:58:17.148Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:58:17.230Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:58:17.345Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:58:17.379Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:58:21.052Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T15:58:21.193Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:58:21.260Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:58:21.269Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:58:21.284Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:58:21.359Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:58:21.371Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:59:03.524Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T15:59:03.540Z] ANONYMOUS accessed GET /login
+[2025-11-21T15:59:06.550Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T15:59:06.676Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T15:59:08.770Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:59:08.864Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:59:08.878Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:59:08.962Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:59:09.075Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:59:09.100Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T15:59:13.318Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T15:59:13.449Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T15:59:13.527Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T15:59:13.537Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T15:59:13.556Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T15:59:13.647Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T15:59:13.666Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:00:42.976Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:00:42.996Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:00:46.671Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:00:46.795Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:00:48.976Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:00:49.079Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:00:49.100Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:00:49.170Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:00:49.304Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:00:49.337Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:00:53.679Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T16:00:53.808Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:00:53.876Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:00:53.886Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:00:53.916Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:00:53.992Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:00:54.014Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:01:55.225Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:01:55.243Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:01:58.540Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:01:58.662Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:02:00.402Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:02:00.494Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:02:00.517Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:02:00.614Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:02:00.729Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:02:00.758Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:02:09.270Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /reservation-list/692062e4b278035edf00c8f3/passengers/delete/1
+[2025-11-21T16:07:28.366Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:07:28.382Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:07:38.258Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:07:38.397Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:07:40.164Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:07:40.276Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:07:40.295Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:07:40.373Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:07:40.507Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:07:40.532Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:07:44.459Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T16:07:44.576Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:07:44.664Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:07:44.675Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:07:44.696Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:07:44.770Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:07:44.789Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:07:48.660Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list?
+[2025-11-21T16:07:48.732Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:07:48.743Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:07:48.772Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:07:48.856Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:07:48.877Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:09:04.192Z] ANONYMOUS accessed GET /reservation-list?
+[2025-11-21T16:09:04.213Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:09:09.407Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:09:09.540Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:09:11.624Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:09:11.718Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:09:11.731Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:09:11.835Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:09:11.936Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:09:11.961Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:09:18.099Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T16:09:18.207Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:09:18.269Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:09:18.277Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:09:18.300Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:09:18.385Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:09:18.404Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:10:26.038Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:10:26.111Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:10:26.119Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:10:26.141Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:10:26.223Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:10:26.236Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:10:27.918Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:10:27.975Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:10:27.981Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:10:28.000Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:10:28.071Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:10:28.087Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:11:08.860Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:11:08.877Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:11:12.025Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:11:12.152Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:11:14.523Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:11:14.619Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:11:14.635Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:11:14.717Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:11:14.867Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:11:14.895Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:11:18.037Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T16:11:18.179Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:11:18.255Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:11:18.264Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:11:18.287Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:11:18.366Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:11:18.385Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:11:22.880Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /?
+[2025-11-21T16:12:05.908Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:12:05.967Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:12:05.973Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:12:05.996Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:12:06.044Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:12:06.054Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:13:11.709Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:13:11.728Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:13:15.453Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:13:15.578Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:13:18.481Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:13:18.578Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:13:18.588Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:13:18.677Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:13:18.780Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:13:18.808Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:13:23.966Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T16:13:24.082Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:13:24.166Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:13:24.176Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:13:24.207Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:13:24.264Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:13:24.281Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:13:28.169Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /?
+[2025-11-21T16:15:02.086Z] ANONYMOUS accessed GET /?
+[2025-11-21T16:15:04.687Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:15:04.697Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:15:07.790Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:15:07.917Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:15:11.018Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:15:11.088Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:15:11.102Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:15:11.184Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:15:11.324Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:15:11.357Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:15:15.621Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T16:15:15.748Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:15:15.824Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:15:15.834Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:15:15.864Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:15:15.943Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:15:15.965Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:15:19.810Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /?
+[2025-11-21T16:15:27.532Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T16:15:27.623Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T16:15:27.640Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T16:15:27.695Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T16:15:28.679Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:15:29.146Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T16:15:29.216Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T16:15:29.225Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T16:15:29.270Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T16:15:30.537Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-21T16:16:03.520Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/create-booking
+[2025-11-21T16:16:03.619Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:16:08.765Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-21T16:16:09.740Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:16:09.803Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:16:09.810Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:16:09.836Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:16:09.903Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:16:09.912Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:16:09.986Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:16:09.999Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:16:17.919Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692090431b5bb38364022130
+[2025-11-21T16:16:17.988Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:16:18.081Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:16:18.091Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:16:18.115Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:16:18.185Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:16:18.205Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:16:18.261Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:16:18.272Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:16:22.483Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /?
+[2025-11-21T16:16:24.111Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:16:24.167Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:16:24.174Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:16:24.190Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:16:24.277Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:16:24.289Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:16:24.344Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:16:24.354Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:16:31.025Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /?
+[2025-11-21T16:16:32.306Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:16:32.367Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:16:32.386Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:16:32.402Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:16:32.464Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:16:32.474Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:16:32.528Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:16:32.536Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:18:14.504Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:18:14.519Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:18:17.923Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:18:17.997Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:18:19.962Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:18:20.035Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:18:20.060Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:18:20.099Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:18:20.166Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:18:20.178Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:18:20.228Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:18:20.244Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:18:23.565Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692090431b5bb38364022130
+[2025-11-21T16:18:23.627Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:18:23.696Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:18:23.702Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:18:23.715Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:18:23.754Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:18:23.765Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:18:23.819Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:18:23.827Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:18:34.944Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /?
+[2025-11-21T16:18:37.462Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:18:37.521Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:18:37.530Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:18:37.545Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:18:37.595Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:18:37.605Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:18:37.648Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:18:37.658Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:19:50.955Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:19:51.015Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:19:51.022Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:19:51.042Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:19:51.113Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:19:51.122Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:19:51.180Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:19:51.195Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:21:10.998Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:21:11.015Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:21:14.195Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:21:14.322Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:21:17.153Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:21:17.220Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:21:17.230Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:21:17.308Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:21:17.414Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:21:17.440Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:21:17.535Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:21:17.550Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:21:22.351Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692090431b5bb38364022130
+[2025-11-21T16:21:22.473Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:21:22.554Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:21:22.565Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:21:22.593Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:21:22.691Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:21:22.708Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:21:22.795Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:21:22.817Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:21:30.532Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692090431b5bb38364022130
+[2025-11-21T16:21:30.600Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:21:30.670Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:21:30.680Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:21:30.703Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:21:30.774Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:21:30.790Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:21:30.854Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:21:30.870Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:27:28.315Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692090431b5bb38364022130
+[2025-11-21T16:27:28.377Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:27:28.447Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:27:28.455Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:27:28.473Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:27:28.540Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:27:28.555Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:27:28.615Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:27:28.627Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:27:37.698Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:27:37.717Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:27:40.518Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:27:40.643Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:27:43.278Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:27:43.371Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:27:43.381Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:27:43.447Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:27:43.542Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:27:43.570Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:27:43.657Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:27:43.683Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:27:45.924Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692062e4b278035edf00c8f3
+[2025-11-21T16:27:46.045Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:27:46.117Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:27:46.127Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:27:46.143Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:27:46.220Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:27:46.241Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:27:46.314Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:27:46.337Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:28:10.296Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:28:10.311Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:28:13.768Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:28:13.905Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:28:16.354Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:28:16.447Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:28:16.460Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:28:16.541Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:28:16.669Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:28:16.701Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:28:16.805Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:28:16.819Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:28:38.447Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:28:38.463Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:28:41.791Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:28:41.931Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:28:44.785Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:28:44.867Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:28:44.885Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:28:44.975Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:28:45.113Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:28:45.144Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:28:45.254Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:28:45.270Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:33:37.739Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:33:37.757Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:33:42.154Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:33:42.286Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:33:45.204Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:33:45.286Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:33:45.301Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:33:45.381Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:33:45.510Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:33:45.540Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:33:45.640Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:33:45.666Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:33:51.740Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list/692062e4b278035edf00c8f3/passengers/delete/1?
+[2025-11-21T16:33:58.276Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list/692062e4b278035edf00c8f3/passengers/delete/1?
+[2025-11-21T16:34:53.838Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:34:53.858Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:34:58.390Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:34:58.520Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:35:01.116Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:35:01.199Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:35:01.209Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:35:01.287Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:35:01.390Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:35:01.415Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:35:01.507Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:35:01.522Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:35:07.229Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list/692062e4b278035edf00c8f3/passengers/delete/1?
+[2025-11-21T16:37:13.942Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T16:37:13.963Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:37:17.482Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:37:17.608Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:37:20.502Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:37:20.595Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:37:20.608Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:37:20.674Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:37:20.769Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:37:20.799Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:37:20.891Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:37:20.919Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:37:25.050Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list?
+[2025-11-21T16:37:25.119Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:37:25.127Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:37:25.144Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:37:25.203Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:37:25.219Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:37:25.295Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:37:25.312Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:37:39.949Z] ANONYMOUS accessed GET /reservation-list?
+[2025-11-21T16:37:39.967Z] ANONYMOUS accessed GET /login
+[2025-11-21T16:37:43.462Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T16:37:43.608Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T16:37:46.400Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:37:46.492Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:37:46.505Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:37:46.585Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:37:46.714Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:37:46.734Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:37:46.829Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:37:46.848Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:37:49.913Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /?
+[2025-11-21T16:37:52.119Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:37:52.176Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:37:52.185Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:37:52.213Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:37:52.295Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:37:52.312Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:37:52.406Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:37:52.427Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:37:57.170Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /?
+[2025-11-21T16:37:59.588Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T16:37:59.646Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T16:37:59.654Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T16:37:59.679Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T16:37:59.763Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T16:37:59.774Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T16:37:59.828Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T16:37:59.839Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T16:38:03.512Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /?
+[2025-11-21T17:01:20.646Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T17:01:20.658Z] ANONYMOUS accessed GET /login
+[2025-11-21T17:01:25.158Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T17:01:25.319Z] ANONYMOUS accessed GET /login?error=Incorrect%20password
+[2025-11-21T17:01:33.173Z] ANONYMOUS accessed GET /
+[2025-11-21T17:01:34.768Z] ANONYMOUS accessed GET /login
+[2025-11-21T17:01:38.709Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T17:01:38.814Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T17:01:41.181Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:01:41.248Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:01:41.277Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:01:41.365Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:01:41.514Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:01:41.547Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:01:41.643Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:01:41.658Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T17:01:47.013Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/remove-passenger//1?
+[2025-11-21T17:02:30.250Z] ANONYMOUS accessed GET /api/bookings/remove-passenger//1?
+[2025-11-21T17:02:33.359Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T17:02:33.371Z] ANONYMOUS accessed GET /login
+[2025-11-21T17:02:36.709Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T17:02:36.823Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T17:02:38.779Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-21T17:02:40.610Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:02:40.681Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:02:40.698Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:02:40.801Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:02:40.952Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:02:40.977Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:02:41.081Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:02:41.104Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T17:02:44.234Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/remove-passenger//1?
+[2025-11-21T17:03:35.384Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal
+[2025-11-21T17:03:43.627Z] ANONYMOUS accessed GET /api/bookings
+[2025-11-21T17:04:05.282Z] ANONYMOUS accessed GET /api/bookings/user-bookings
+[2025-11-21T17:04:14.108Z] ANONYMOUS accessed GET /
+[2025-11-21T17:04:15.314Z] ANONYMOUS accessed GET /login
+[2025-11-21T17:04:18.273Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T17:04:18.392Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T17:04:20.133Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:04:20.215Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:04:20.237Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:04:20.328Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:04:20.438Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:04:20.464Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:04:20.567Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:04:20.584Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T17:06:21.161Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T17:06:21.182Z] ANONYMOUS accessed GET /login
+[2025-11-21T17:06:24.692Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T17:06:24.828Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T17:06:26.977Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:06:27.053Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:06:27.066Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:06:27.134Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:06:27.244Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:06:27.271Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:06:27.347Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:06:27.363Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T17:06:30.469Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/remove-passenger/?
+[2025-11-21T17:08:04.155Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/cancel-booking/692062e4b278035edf00c8f3
+[2025-11-21T17:08:04.319Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:08:04.395Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:08:04.403Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:08:04.430Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:08:04.523Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:08:04.535Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:08:04.602Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:08:04.619Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T17:08:10.202Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/remove-passenger/?
+[2025-11-21T17:08:59.946Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:09:00.000Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:09:00.012Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:09:00.034Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:09:00.103Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:09:00.122Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:09:00.189Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:09:00.206Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T17:09:07.244Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T17:09:07.263Z] ANONYMOUS accessed GET /login
+[2025-11-21T17:09:08.245Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T17:09:08.251Z] ANONYMOUS accessed GET /login
+[2025-11-21T17:09:11.404Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T17:09:11.535Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T17:09:13.365Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:09:13.450Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:09:13.466Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:09:13.545Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:09:13.636Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:09:13.684Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:09:13.793Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:09:13.814Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T17:09:19.262Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/remove-passenger/?
+[2025-11-21T17:11:12.713Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-21T17:11:12.733Z] ANONYMOUS accessed GET /login
+[2025-11-21T17:11:15.633Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-21T17:11:15.765Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-21T17:11:17.707Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:11:17.782Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:11:17.796Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:11:17.877Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:11:18.013Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:11:18.040Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:11:18.143Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:11:18.170Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T17:11:23.213Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/remove-passenger/
+[2025-11-21T17:14:26.700Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T17:14:26.781Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T17:14:26.800Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T17:14:26.854Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T17:14:28.649Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-21T17:14:35.648Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:14:35.710Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:14:35.718Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:14:35.740Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:14:35.808Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:14:35.834Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:14:35.930Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:14:35.948Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-21T17:14:37.886Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T17:14:37.968Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T17:14:37.977Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T17:14:38.025Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T17:15:04.583Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-21T17:15:04.680Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-21T17:15:04.691Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T17:15:04.764Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-21T17:15:48.954Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-21T17:15:49.027Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-21T17:15:49.038Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-21T17:15:49.093Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-21T17:15:49.182Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-21T17:15:49.204Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-21T17:15:49.266Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-21T17:15:49.289Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:21:42.482Z] ANONYMOUS accessed GET /
+[2025-11-23T14:21:46.710Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-23T14:21:46.733Z] ANONYMOUS accessed GET /login
+[2025-11-23T14:21:53.085Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-23T14:21:53.317Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-23T14:21:54.846Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:21:54.927Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:21:54.976Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:21:55.144Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:21:55.280Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:21:55.301Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:21:55.395Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:21:55.409Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:22:01.568Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/remove-passenger/
+[2025-11-23T14:22:06.249Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/remove-passenger/
+[2025-11-23T14:22:24.398Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:22:24.478Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:22:24.486Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:22:24.503Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:22:24.579Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:22:24.598Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:22:24.666Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:22:24.680Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:22:59.706Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-23T14:23:00.206Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-23T14:23:00.303Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-23T14:23:00.380Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-23T14:23:06.131Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-23T14:23:07.965Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-23T14:23:08.035Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-23T14:23:08.051Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-23T14:23:08.114Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-23T14:23:10.779Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-23T14:23:26.457Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/create-booking
+[2025-11-23T14:23:26.682Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:23:30.162Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:23:30.219Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:23:30.229Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:23:30.249Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:23:30.337Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:23:30.353Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:23:30.430Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:23:30.443Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:23:30.522Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:23:30.535Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:24:00.284Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation
+[2025-11-23T14:24:00.991Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:24:01.070Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:24:01.081Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:24:01.096Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:24:01.147Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:24:01.157Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:24:01.212Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:24:01.221Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:24:01.276Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:24:01.287Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:24:14.342Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:24:14.414Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:24:14.431Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:24:14.446Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:24:14.502Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:24:14.513Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:24:14.573Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:24:14.584Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:24:14.638Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:24:14.649Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:24:36.955Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:24:37.016Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:24:37.024Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:24:37.042Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:24:37.100Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:24:37.110Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:24:37.169Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:24:37.185Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:24:37.255Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:24:37.265Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:27:02.447Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-23T14:27:02.466Z] ANONYMOUS accessed GET /login
+[2025-11-23T14:27:04.196Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-23T14:27:04.205Z] ANONYMOUS accessed GET /login
+[2025-11-23T14:27:07.324Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-23T14:27:07.514Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-23T14:27:08.906Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:27:08.982Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:27:08.996Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:27:09.082Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:27:09.207Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:27:09.230Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:27:09.318Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:27:09.339Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:27:09.404Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:27:09.418Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:27:25.200Z] ANONYMOUS accessed GET /
+[2025-11-23T14:27:30.076Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-23T14:27:30.085Z] ANONYMOUS accessed GET /login
+[2025-11-23T14:27:37.009Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-23T14:27:37.205Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-23T14:27:39.452Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:27:39.542Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:27:39.555Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:27:39.641Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:27:39.768Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:27:39.792Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:27:39.874Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:27:39.891Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:27:39.968Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:27:39.981Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:27:46.288Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692090431b5bb38364022130
+[2025-11-23T14:27:46.410Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:27:46.500Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:27:46.512Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:27:46.536Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:27:46.621Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:27:46.637Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:27:46.709Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:27:46.723Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:27:46.789Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:27:46.801Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:29:13.773Z] ANONYMOUS accessed GET /
+[2025-11-23T14:29:16.489Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-23T14:29:16.499Z] ANONYMOUS accessed GET /login
+[2025-11-23T14:29:19.670Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-23T14:29:19.859Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-23T14:29:21.299Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:29:21.391Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:29:21.414Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:29:21.494Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:29:21.617Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:29:21.639Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:29:21.738Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:29:21.763Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:29:21.843Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:29:21.856Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:29:51.723Z] ANONYMOUS accessed GET /
+[2025-11-23T14:29:55.683Z] ANONYMOUS accessed GET /login
+[2025-11-23T14:30:00.102Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-23T14:30:00.295Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-23T14:30:01.500Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:30:01.582Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:30:01.612Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:30:01.695Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:30:01.824Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:30:01.845Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:30:01.931Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:30:01.955Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:30:02.022Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:30:02.036Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:30:32.324Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:30:32.399Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:30:32.411Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:30:32.428Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:30:32.493Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:30:32.507Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:30:32.574Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:30:32.588Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:30:32.656Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:30:32.666Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-23T14:30:41.359Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-23T14:30:41.432Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-23T14:30:41.445Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-23T14:30:41.466Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-23T14:30:41.534Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-23T14:30:41.547Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-23T14:30:41.604Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-23T14:30:41.615Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-23T14:30:41.671Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-23T14:30:41.680Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T12:16:44.385Z] ANONYMOUS accessed GET /
+[2025-11-24T12:16:46.529Z] ANONYMOUS accessed GET /login
+[2025-11-24T12:16:51.101Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-24T12:16:51.245Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-24T12:16:53.768Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T12:16:53.848Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T12:16:53.877Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T12:16:53.971Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T12:16:54.083Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T12:16:54.112Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T12:16:54.234Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T12:16:54.255Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T12:16:54.317Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T12:16:54.328Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T12:17:42.723Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/remove-passenger-test
+[2025-11-24T12:18:48.905Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings/692061ca120c3ddb49b70ecd
+[2025-11-24T12:19:03.446Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/update-booking/692061ca120c3ddb49b70ecd
+[2025-11-24T12:20:15.819Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T12:20:15.833Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T12:20:15.914Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T12:20:15.925Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T12:20:15.989Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T12:20:16.002Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T12:20:16.052Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T12:20:16.065Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T12:20:24.314Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/cancel-booking/692318ded1a699e0a8bb5612
+[2025-11-24T12:20:24.451Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T12:20:24.507Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T12:20:24.516Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T12:20:24.544Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T12:20:24.600Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T12:20:24.625Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T12:20:24.691Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T12:20:24.701Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T12:20:24.763Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T12:20:24.777Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T12:22:10.930Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T12:22:10.963Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T12:22:11.053Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T12:22:11.069Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T12:22:11.142Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T12:22:11.157Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T12:22:11.229Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T12:22:11.240Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T12:22:37.597Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /partial/booking-display/692061ca120c3ddb49b70ecd
+[2025-11-24T12:23:57.636Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T12:28:52.913Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /user-bookings
+[2025-11-24T12:29:17.930Z] ANONYMOUS accessed GET /user-bookings
+[2025-11-24T12:29:32.418Z] ANONYMOUS accessed GET /
+[2025-11-24T12:29:33.583Z] ANONYMOUS accessed GET /favicon.ico
+[2025-11-24T12:29:37.643Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-24T12:29:37.656Z] ANONYMOUS accessed GET /login
+[2025-11-24T12:29:41.217Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-24T12:29:41.312Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-24T12:29:44.525Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T12:29:44.589Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T12:29:44.600Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T12:29:44.629Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T12:29:44.680Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T12:29:44.686Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T12:29:44.722Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T12:29:44.729Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T12:29:44.767Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T12:29:44.774Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T12:30:12.330Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-24T12:30:12.336Z] ANONYMOUS accessed GET /login
+[2025-11-24T12:31:42.318Z] ANONYMOUS accessed GET /flight-search
+[2025-11-24T12:33:45.576Z] ANONYMOUS accessed GET /remove-passenger-test
+[2025-11-24T12:34:23.771Z] ANONYMOUS accessed GET /partial/booking-display-modal
+[2025-11-24T12:38:39.696Z] ANONYMOUS accessed GET /partial/booking-display-modal
+[2025-11-24T12:38:59.627Z] ANONYMOUS accessed GET /
+[2025-11-24T12:39:03.849Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-24T12:39:03.864Z] ANONYMOUS accessed GET /login
+[2025-11-24T12:39:09.028Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-24T12:39:09.144Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-24T12:39:11.723Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T12:39:11.801Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T12:39:11.815Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T12:39:11.951Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T12:39:12.090Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T12:39:12.110Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T12:39:12.180Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T12:39:12.193Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T12:39:12.252Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T12:39:12.263Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:22:11.488Z] ANONYMOUS accessed GET /
+[2025-11-24T13:22:18.652Z] ANONYMOUS accessed GET /login
+[2025-11-24T13:22:21.464Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-24T13:22:21.662Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-24T13:22:23.512Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:22:23.613Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:22:23.650Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:22:23.732Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:22:23.857Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:22:23.880Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:22:23.978Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:22:23.997Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:22:24.078Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:22:24.093Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:25:14.085Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-24T13:25:14.103Z] ANONYMOUS accessed GET /login
+[2025-11-24T13:25:17.927Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-24T13:25:18.112Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-24T13:25:21.498Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:25:21.577Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:25:21.591Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:25:21.671Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:25:21.799Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:25:21.818Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:25:21.912Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:25:21.933Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:25:22.011Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:25:22.024Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:25:43.494Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:25:43.567Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:25:43.581Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:25:43.598Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:25:43.668Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:25:43.683Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:25:43.750Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:25:43.765Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:25:43.827Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:25:43.838Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:39:16.447Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-24T13:39:16.466Z] ANONYMOUS accessed GET /login
+[2025-11-24T13:39:21.261Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-24T13:39:21.453Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-24T13:39:23.343Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:39:23.416Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:39:23.429Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:39:23.509Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:39:23.658Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:39:23.683Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:39:23.782Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:39:23.799Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:39:23.878Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:39:23.892Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:39:29.061Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692090431b5bb38364022130
+[2025-11-24T13:39:29.188Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:39:29.275Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:39:29.292Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:39:29.318Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:39:29.388Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:39:29.402Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:39:29.481Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:39:29.493Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:39:29.552Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:39:29.565Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:39:48.254Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692090431b5bb38364022130
+[2025-11-24T13:39:48.309Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:39:48.398Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:39:48.415Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:39:48.432Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:39:48.504Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:39:48.521Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:39:48.585Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:39:48.596Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:39:48.651Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:39:48.662Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:39:54.595Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692090431b5bb38364022130
+[2025-11-24T13:39:54.646Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:39:54.715Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:39:54.729Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:39:54.745Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:39:54.797Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:39:54.809Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:39:54.873Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:39:54.888Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:39:54.948Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:39:54.958Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:40:03.551Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/cancel-booking/692090431b5bb38364022130
+[2025-11-24T13:40:03.619Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:40:03.692Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:40:03.704Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:40:03.717Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:40:03.766Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:40:03.777Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:40:03.829Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:40:03.841Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:40:03.888Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:40:03.900Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:40:10.104Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-24T13:40:10.172Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-24T13:40:10.193Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:40:10.230Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:40:11.720Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-24T13:40:38.424Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/create-booking
+[2025-11-24T13:40:38.503Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:40:41.762Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:40:41.833Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:40:41.845Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:40:41.869Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:40:41.945Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:40:41.956Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:40:42.030Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:40:42.042Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:40:42.107Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:40:42.118Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:40:42.174Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:40:42.185Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:41:44.728Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-24T13:41:44.749Z] ANONYMOUS accessed GET /login
+[2025-11-24T13:41:50.174Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-24T13:41:50.367Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-24T13:41:52.305Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:41:52.380Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:41:52.396Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:41:52.479Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:41:52.609Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:41:52.633Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:41:52.727Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:41:52.744Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:41:52.831Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:41:52.845Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:41:52.915Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:41:52.926Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:41:58.333Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/69246056587be1c899a2dd87
+[2025-11-24T13:41:58.431Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:41:58.503Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:41:58.513Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:41:58.531Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:41:58.596Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:41:58.608Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:41:58.682Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:41:58.704Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:41:58.781Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:41:58.795Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:41:58.854Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:41:58.867Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:42:04.647Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/69246056587be1c899a2dd87
+[2025-11-24T13:42:04.701Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:42:04.778Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:42:04.789Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:42:04.803Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:42:04.850Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:42:04.859Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:42:04.912Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:42:04.923Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:42:04.972Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:42:04.981Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:42:05.025Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:42:05.034Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:42:09.179Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/69246056587be1c899a2dd87
+[2025-11-24T13:42:09.225Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:42:09.299Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:42:09.308Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:42:09.324Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:42:09.373Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:42:09.386Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:42:09.433Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:42:09.443Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:42:09.494Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:42:09.504Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:42:09.546Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:42:09.556Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:42:14.419Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/69246056587be1c899a2dd87
+[2025-11-24T13:42:14.466Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:42:14.533Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:42:14.541Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:42:14.556Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:42:14.602Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:42:14.612Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:42:14.658Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:42:14.668Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:42:14.715Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:42:14.724Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:42:14.770Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:42:14.780Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:42:28.323Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:42:28.390Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:42:28.401Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:42:28.415Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:42:28.469Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:42:28.482Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:42:28.531Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:42:28.542Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:42:28.592Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:42:28.602Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:42:28.649Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:42:28.658Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:42:33.242Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/69246056587be1c899a2dd87
+[2025-11-24T13:42:33.301Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:42:33.388Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:42:33.394Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:42:33.408Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:42:33.455Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:42:33.465Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:42:33.515Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:42:33.524Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:42:33.574Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:42:33.583Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:42:33.631Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:42:33.640Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:42:37.879Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/69246056587be1c899a2dd87
+[2025-11-24T13:42:37.937Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:42:38.004Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:42:38.012Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:42:38.025Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:42:38.076Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:42:38.088Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:42:38.141Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:42:38.150Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:42:38.202Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:42:38.211Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:42:38.255Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:42:38.265Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:43:00.408Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/cancel-booking/69246056587be1c899a2dd87
+[2025-11-24T13:43:00.469Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:43:00.556Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:43:00.567Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:43:00.588Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:43:00.679Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:43:00.698Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:43:00.768Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:43:00.779Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:43:00.840Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:43:00.851Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:43:00.901Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:43:00.916Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:43:02.722Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-24T13:43:02.786Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-24T13:43:02.797Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:43:02.856Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:43:04.278Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-24T13:43:27.720Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/create-booking
+[2025-11-24T13:43:27.770Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:43:32.108Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:43:32.167Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:43:32.175Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:43:32.192Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:43:32.254Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:43:32.265Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:43:32.323Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:43:32.335Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:43:32.396Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:43:32.407Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:43:32.454Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:43:32.465Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:43:32.519Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:43:32.538Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:43:34.974Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-24T13:43:35.039Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-24T13:43:35.053Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:43:35.088Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:43:36.861Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-24T13:43:39.665Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:43:39.718Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:43:39.727Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:43:39.739Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:43:39.784Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:43:39.793Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:43:39.841Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:43:39.853Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:43:39.903Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:43:39.916Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:43:39.962Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:43:39.972Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:43:40.016Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:43:40.026Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:43:52.471Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:43:52.545Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:43:52.554Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:43:52.566Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:43:52.617Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:43:52.628Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:43:52.682Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:43:52.692Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:43:52.742Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:43:52.752Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:43:52.794Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:43:52.803Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:43:52.845Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:43:52.855Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:44:32.622Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692460ff2a8d6e294e446968
+[2025-11-24T13:44:32.666Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:44:32.747Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:44:32.756Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:44:32.770Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:44:32.830Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:44:32.845Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:44:32.894Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:44:32.905Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:44:32.950Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:44:32.960Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:44:33.003Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:44:33.014Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:44:33.060Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:44:33.077Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:45:55.142Z] ANONYMOUS accessed GET /
+[2025-11-24T13:45:57.683Z] ANONYMOUS accessed GET /reservation-list
+[2025-11-24T13:45:57.703Z] ANONYMOUS accessed GET /login
+[2025-11-24T13:46:02.465Z] ANONYMOUS accessed POST /api/auth/login
+[2025-11-24T13:46:02.652Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /
+[2025-11-24T13:46:04.489Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:46:04.567Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:46:04.582Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:46:04.670Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:46:04.801Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:46:04.825Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:46:04.908Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:46:04.932Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:46:05.009Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:46:05.023Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:46:05.078Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:46:05.091Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:46:05.155Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:46:05.169Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:46:11.364Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692460ff2a8d6e294e446968
+[2025-11-24T13:46:11.485Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:46:11.562Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:46:11.571Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:46:11.595Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:46:11.666Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:46:11.683Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:46:11.763Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:46:11.785Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:46:11.848Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:46:11.860Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:46:11.910Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:46:11.922Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:46:11.967Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:46:11.978Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:46:14.128Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-24T13:46:14.184Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-24T13:46:14.204Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:46:14.247Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:46:16.098Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-24T13:46:36.516Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/create-booking
+[2025-11-24T13:46:36.567Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:46:39.499Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:46:39.569Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:46:39.585Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:46:39.605Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:46:39.694Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:46:39.710Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:46:39.771Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:46:39.781Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:46:39.841Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:46:39.853Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:46:39.906Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:46:39.918Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:46:39.993Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:46:40.011Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:46:40.067Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692461bc449197b99b541eed?management=true
+[2025-11-24T13:46:40.080Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692461bc449197b99b541eed
+[2025-11-24T13:46:51.902Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692461bc449197b99b541eed
+[2025-11-24T13:46:51.976Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:46:52.065Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:46:52.075Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:46:52.092Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:46:52.144Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:46:52.154Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:46:52.203Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:46:52.213Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:46:52.266Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:46:52.280Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:46:52.324Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:46:52.334Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:46:52.391Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:46:52.403Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:46:52.452Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692461bc449197b99b541eed?management=true
+[2025-11-24T13:46:52.462Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692461bc449197b99b541eed
+[2025-11-24T13:46:59.731Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692461bc449197b99b541eed
+[2025-11-24T13:46:59.781Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:46:59.879Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:46:59.892Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:46:59.907Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:46:59.955Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:46:59.966Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:47:00.017Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:47:00.029Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:47:00.093Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:47:00.106Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:47:00.158Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:47:00.168Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:47:00.221Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:47:00.231Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:47:00.278Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692461bc449197b99b541eed?management=true
+[2025-11-24T13:47:00.291Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692461bc449197b99b541eed
+[2025-11-24T13:47:20.277Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /flight-search
+[2025-11-24T13:47:20.353Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/get-all?scheduled=true
+[2025-11-24T13:47:20.381Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:47:20.417Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/flights/partial/flight-display/69206173120c3ddb49b705ef
+[2025-11-24T13:47:21.803Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /Reservation?flightId=69206173120c3ddb49b705ef
+[2025-11-24T13:47:28.982Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:47:29.061Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:47:29.071Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:47:29.088Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:47:29.172Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:47:29.189Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:47:29.264Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:47:29.274Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:47:29.326Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:47:29.336Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:47:29.385Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:47:29.399Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:47:29.456Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:47:29.466Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:47:29.518Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692461bc449197b99b541eed?management=true
+[2025-11-24T13:47:29.528Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692461bc449197b99b541eed
+[2025-11-24T13:47:50.738Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed POST /api/bookings/update-booking/692461bc449197b99b541eed
+[2025-11-24T13:47:50.832Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /reservation-list
+[2025-11-24T13:47:50.911Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/user-bookings?userId=6920619d120c3ddb49b70ba0
+[2025-11-24T13:47:50.920Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692061ca120c3ddb49b70ecd?management=true
+[2025-11-24T13:47:50.938Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692061ca120c3ddb49b70ecd
+[2025-11-24T13:47:51.014Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692062e4b278035edf00c8f3?management=true
+[2025-11-24T13:47:51.023Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692062e4b278035edf00c8f3
+[2025-11-24T13:47:51.088Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692090431b5bb38364022130?management=true
+[2025-11-24T13:47:51.098Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692090431b5bb38364022130
+[2025-11-24T13:47:51.153Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692318ded1a699e0a8bb5612?management=true
+[2025-11-24T13:47:51.166Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692318ded1a699e0a8bb5612
+[2025-11-24T13:47:51.216Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/69246056587be1c899a2dd87?management=true
+[2025-11-24T13:47:51.227Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=69246056587be1c899a2dd87
+[2025-11-24T13:47:51.289Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692460ff2a8d6e294e446968?management=true
+[2025-11-24T13:47:51.299Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692460ff2a8d6e294e446968
+[2025-11-24T13:47:51.351Z] CUSTOMER "User" (ID: 6920619d120c3ddb49b70ba0) accessed GET /api/bookings/partial/booking-display/692461bc449197b99b541eed?management=true
+[2025-11-24T13:47:51.361Z] ANONYMOUS accessed GET /api/bookings/partial/booking-display-modal?bookingId=692461bc449197b99b541eed
