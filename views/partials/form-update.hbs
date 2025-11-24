@@ -1,0 +1,145 @@
+<h3 class="mb-5">User Profile</h3>
+
+<form action="/api/users/update-user" method="POST" class="container row">
+
+  <!-- FIRST NAME -->
+  <div class="col-md-6 mb-4">
+    <div data-mdb-input-init class="form-outline">
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        class="form-control form-control-lg"
+        value="{{user.firstName}}"
+        required
+      />
+      <label for="firstName" class="form-label">First Name</label>
+    </div>
+  </div>
+
+  <!-- LAST NAME -->
+  <div class="col-md-6 mb-4">
+    <div data-mdb-input-init class="form-outline">
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        class="form-control form-control-lg"
+        value="{{user.lastName}}"
+        required
+      />
+      <label for="lastName" class="form-label">Last Name</label>
+    </div>
+  </div>
+
+  <!-- BIRTHDATE -->
+  <div class="col-md-6 mb-4 d-flex align-items-center">
+    <div data-mdb-input-init class="form-outline w-100">
+      <input
+        type="date"
+        id="birthdate"
+        name="birthdate"
+        class="form-control form-control-lg"
+        value="{{formatDate user.birthdate "YYYY-MM-DD"}}"
+        required
+      />
+      <label for="birthdate" class="form-label">Birthday</label>
+    </div>
+  </div>
+
+  <!-- GENDER -->
+  <div class="col-md-6 mb-4">
+    <h6 class="mb-2 pb-1">Gender:</h6>
+
+    <div class="form-check form-check-inline">
+      <input
+        type="radio"
+        id="optionFemale"
+        name="gender"
+        class="form-check-input"
+        value="Female"
+        {{#if (eq user.gender "Female")}}checked{{/if}}
+      />
+      <label class="form-check-label" for="optionFemale">Female</label>
+    </div>
+
+    <div class="form-check form-check-inline">
+      <input
+        type="radio"
+        id="optionMale"
+        name="gender"
+        class="form-check-input"
+        value="Male"
+        {{#if (eq user.gender "Male")}}checked{{/if}}
+      />
+      <label class="form-check-label" for="optionMale">Male</label>
+    </div>
+
+    <div class="form-check form-check-inline">
+      <input
+        type="radio"
+        id="optionOther"
+        name="gender"
+        class="form-check-input"
+        value="Others"
+        {{#if (eq user.gender "Others")}}checked{{/if}}
+      />
+      <label class="form-check-label" for="optionOther">Others</label>
+    </div>
+  </div>
+
+  <!-- EMAIL -->
+  <div class="col-md-6 mb-4 pb-2">
+    <div data-mdb-input-init class="form-outline">
+      <input
+        type="email"
+        id="email"
+        name="email"
+        class="form-control form-control-lg"
+        value="{{user.email}}"
+        required
+      />
+      <label class="form-label" for="email">Email</label>
+    </div>
+  </div>
+
+  <!-- PHONE -->
+  <div class="col-md-6 mb-4 pb-2">
+    <div data-mdb-input-init class="form-outline">
+      <input
+        type="tel"
+        id="phoneNumber"
+        name="phoneNumber"
+        class="form-control form-control-lg"
+        value="{{user.phoneNumber}}"
+      />
+      <label class="form-label" for="phoneNumber">Phone Number</label>
+    </div>
+  </div>
+
+  <!-- PASSWORD -->
+  <div class="col-md-12 mb-4 pb-2">
+    <div data-mdb-input-init class="form-outline">
+      <input
+        type="password"
+        id="password"
+        name="password"
+        class="form-control form-control-lg"
+        placeholder="Enter new password"
+      />
+      <label class="form-label" for="password">Password</label>
+    </div>
+  </div>
+
+  <!-- SUBMIT -->
+  <div class="mt-4 pt-2">
+    <input
+      data-mdb-ripple-init
+      class="btn btn-primary btn-lg"
+      type="submit"
+      value="Submit"
+      id="SubmitButton"
+    />
+  </div>
+
+</form>

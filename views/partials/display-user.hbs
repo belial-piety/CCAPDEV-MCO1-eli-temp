@@ -1,0 +1,39 @@
+{{!-- Complete --}}
+
+<div class="border rounded-lg shadow-sm p-3 my-2 bg-white w-full accordion">
+
+  <div class="container row g-3 align-items-center justify-content-center">
+    <!-- Airline, Flight Number -->
+    <div class="col-12 col-lg-4 mx-0 d-flex flex-lg-column flex-row text-start justify-content-between">
+      <p class="m-0"><b>User ID:</b> {{user._id}}</p>
+      <p class="m-0"><b>Name:</b> {{user.firstName}} {{user.lastName}}</p>
+    </div>
+
+    <!-- Origin + Departure -->
+    <div class="col-4 col-lg-4 mx-0 px-0 flex flex-col text-start">
+      <div class="text-gray-500">
+        <p class="m-0 "><b>Email:</b> {{user.email}}</p>
+        <p class="m-0"><b>Phone:</b> {{user.phoneNumber}}</p>
+      </div>
+    </div>
+
+    <div class="col-2 col-lg-4 ms-auto text-end">
+      <button type="button" class="px-4 py-3 btn btn-primary btn-sm" data-bs-toggle="modal"
+        data-bs-target="#userModal-{{user._id}}">
+        Details
+      </button>
+      <button type="button" class="px-4 py-3 btn btn-primary btn-sm " data-bs-toggle="collapse"
+        data-bs-target="#collapse-{{user._id}}" aria-controls="collapse-{{user._id}}"
+        data-bs-target="#reservationsModal-{{user._id}}" aria-expanded="false">
+        Reservations
+      </button>
+    </div>
+
+    <div id="collapse-{{user._id}}" class="accordion-collapse collapse" aria-labelledby="heading-{{user._id}}"
+      data-bs-parent="#accordion-{{user._id}}" >
+      <div class="accordion-body" id="reservation-list-{{user._id}}">
+      </div>
+    </div>
+
+  </div>
+</div>

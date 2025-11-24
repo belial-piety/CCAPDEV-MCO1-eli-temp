@@ -1,0 +1,45 @@
+<main class="container py-4">
+
+  <!-- Header Section with Search -->
+  <section class="bg-white rounded-4 shadow-sm p-4 mb-5">
+    {{> search-header
+    header="Manage Flights"
+    subheader="View and modify flight details"
+    hline=true
+    enable-search=false
+    search-inp-label="Flight number"
+    search-btn-id="search-btn"
+    search-btn-label="Search"
+    }}
+
+    {{> search-flight-filter
+    form-id="flight-search-form"
+    search-btn-id="flight-search-button"
+    }}
+  </section>
+
+  <div class="my-4">
+    <button class="btn btn-primary rounded-4 me-2" id="add-button" data-bs-toggle="modal"
+      data-bs-target="#detailsModal">Add Flight</button>
+  </div>
+
+  <div id="alert-placeholder" class="my-3"></div>
+
+  {{> display-container
+  header="Scheduled Flights"
+  hline=true
+  list-id="scheduled-list"
+  }}
+
+  {{> display-container
+  header="Canceled Flights"
+  hline=true
+  list-id="cancelled-list"
+  }}
+
+</main>
+
+<div id="modals-container"></div>
+
+
+<script src="/js/admin-flights.js"></script>

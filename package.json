@@ -1,0 +1,40 @@
+{
+  "name": "ccapdevmco2",
+  "version": "1.0.0",
+  "description": "milestone 2",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jadenene/CCAPDEV-MCO1.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Jadenene/CCAPDEV-MCO1/issues"
+  },
+  "homepage": "https://github.com/Jadenene/CCAPDEV-MCO1#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.19",
+    "express": "^5.1.0",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^8.0.3",
+    "express-session": "^1.18.2",
+    "mongoose": "^8.20.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11"
+  }
+}

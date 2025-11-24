@@ -1,0 +1,17 @@
+<div class="d-flex {{#if hline}}border-bottom mb-3{{/if}} justify-content-between align-items-center">
+    {{!-- Header text display --}}
+    <div class="pb-3">
+        <h3 class="fw-semibold">{{header}}</h3>
+        <p class="text-muted mb-0">{{subheader}}</p>
+    </div>
+    {{!-- Optional search bar --}}
+    {{#if enable-search}}
+    <div class="d-flex">
+        <div class="form-floating">
+            <input id="search-inp" type="text" class="form-control">
+            <label for="search-inp">{{search-inp-label}}</label>
+        </div>
+        <button type="button" class="btn btn-primary btn-sm w-50 ms-2" id="{{search-btn-id}}">{{search-btn-label}}</button>
+    </div>
+    {{/if}}
+</div>

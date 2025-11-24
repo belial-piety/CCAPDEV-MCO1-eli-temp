@@ -1,0 +1,141 @@
+<div class="modal fade" id="detailsModal-{{booking._id}}" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">
+          Booking Details:
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <form id="update-booking-form-{{booking._id}}" action="/api/bookings/update-booking/{{booking._id}}"
+        method="POST">
+
+        <div class="modal-body container g-3">
+
+          <!-- Flight Details -->
+          <div class="row mb-3">
+            <div class="col-6">
+              <label>Flight Number</label>
+              <input class="form-control" value="{{flight.flightNumber}}" required readonly>
+            </div>
+            <div class="col-6">
+              <label>Price</label>
+              <input type="number" class="form-control" value="{{flight.price}}" required readonly>
+            </div>
+            <div class="col-6">
+              <label>Airline</label>
+              <input class="form-control" value="{{flight.airline}}" required readonly>
+            </div>
+            <div class="col-6">
+              <label>Aircraft</label>
+              <input class="form-control" value="{{flight.aircraft.model}}" required readonly>
+            </div>
+          </div>
+
+          <!-- Passengers Loop -->
+          <h6>Passengers</h6>
+          {{#each booking.passengers}}
+          <div class="card mb-2 p-3 passenger-card" data-seat="{{seatNumber}}">
+            <div class="mb-2">
+              <label>Seat Number</label>
+              <select class="form-select passenger-seat" name="passengers[{{@index}}][seatNumber]" required
+                {{#if (eq ../booking.status "cancelled")}}disabled{{/if}}>
+                {{#each ../flight.availableSeats}}
+                <option value="{{this.seatNumber}}"
+                        {{#ifEquals this.seatNumber ../seatNumber}}selected{{/ifEquals}}
+                        {{#if (and this.isBooked (neq this.seatNumber ../seatNumber))}}disabled{{/if}}>
+                  {{this.seatNumber}}
+                  {{#if this.isBooked}}(Booked){{/if}}
+                </option>
+                {{/each}}
+              </select>
+            </div>
+            <div class="mb-2">
+              <label>First Name</label>
+              <input class="form-control passenger-firstName"
+                     name="passengers[{{@index}}][firstName]"
+                     value="{{firstName}}" required
+                     {{#if (eq ../booking.status "cancelled")}}readonly{{/if}}>
+            </div>
+            <div class="mb-2">
+              <label>Last Name</label>
+              <input class="form-control passenger-lastName"
+                     name="passengers[{{@index}}][lastName]"
+                     value="{{lastName}}" required
+                     {{#if (eq ../booking.status "cancelled")}}readonly{{/if}}>
+            </div>
+            <div class="mb-2">
+              <label>Email</label>
+              <input type="email" class="form-control passenger-email"
+                     name="passengers[{{@index}}][email]"
+                     value="{{email}}" required
+                     {{#if (eq ../booking.status "cancelled")}}readonly{{/if}}>
+            </div>
+            <div class="mb-2">
+              <label>Meal Option</label>
+              <select class="form-select passenger-meal"
+                      name="passengers[{{@index}}][meal]"
+                      {{#if (eq ../booking.status "cancelled")}}disabled{{/if}}>
+                {{#each ../flight.mealOptions}}
+                <option value="{{this.name}}"
+                        {{#ifEquals this.name ../meal}}selected{{/ifEquals}}>
+                  {{this.name}} (+${{this.price}})
+                </option>
+                {{/each}}
+              </select>
+            </div>
+            <div class="mb-2">
+              <label>Extra Baggage</label>
+              <select class="form-select passenger-baggage"
+                      name="passengers[{{@index}}][extraBaggage]"
+                      {{#if (eq ../booking.status "cancelled")}}disabled{{/if}}>
+                {{#each ../flight.baggageOptions}}
+                <option value="{{this.name}}"
+                        {{#ifEquals this.name ../extraBaggage}}selected{{/ifEquals}}>
+                  {{this.name}} (+${{this.price}})
+                </option>
+                {{/each}}
+              </select>
+            </div>
+
+            {{!-- NEW: Remove passenger button (only if booking is not cancelled) --}}
+            {{#if (neq ../booking.status "cancelled")}}
+            <div class="d-flex justify-content-end mt-2">
+              <button type="button"
+                      class="btn btn-outline-danger btn-sm btn-remove-passenger">
+                Remove passenger
+              </button>
+            </div>
+            {{/if}}
+
+          </div>
+          {{/each}}
+        </div>
+
+        <div class="modal-footer">
+          {{#unless (eq booking.status "cancelled")}}
+            <button type="submit" class="btn btn-success">Save Changes</button>
+          {{/unless}}
+
+          {{#if (neq booking.status "cancelled")}}
+            <button type="submit"
+                    class="btn btn-danger"
+                    form="cancel-booking-form-{{booking._id}}">
+              Cancel Booking
+            </button>
+          {{/if}}
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </form>
+
+      <form id="cancel-booking-form-{{booking._id}}"
+            action="/api/bookings/cancel-booking/{{booking._id}}"
+            method="POST">
+      </form>
+
+    </div>
+  </div>
+</div>

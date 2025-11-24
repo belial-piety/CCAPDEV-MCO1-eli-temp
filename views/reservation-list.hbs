@@ -1,0 +1,15 @@
+<main class="container py-4">
+  {{> display-container
+  header="Reservation List (My Bookings)"
+  subheader="Dummy data only. Click “View Details” to see more info."
+  hline=true
+  list-id="reservation-list"
+  }}
+
+</main>
+
+<script>
+  window.sessionUser = {{{json user}}}
+</script>
+
+<script src="/js/reservation-list.js"></script>

@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex" href="/"><img src="/images/airplane.png" alt="Logo" class="images"></a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/flight-search">Flight Search</a></li>
+        <li class="nav-item"><a class="nav-link" href="/reservation">Reservation</a></li>
+        <li class="nav-item"><a class="nav-link" href="/reservation-list">Reservation List</a></li>
+
+        {{#if isAdmin}}
+          <!-- Show only for admin users -->
+          <li class="nav-item"><a class="nav-link" href="/admin-flights">Admin Flights</a></li>
+          <li class="nav-item"><a class="nav-link" href="/admin-users">Admin Users</a></li>
+        {{/if}}
+      </ul>
+
+      {{#if user}}
+        <button class="btnNav me-2" onclick="window.location.href='/api/auth/logout'">Sign Out</button>
+        <button class="btnNav me-2" onclick="window.location.href='/profile'">Profile</button>
+      {{else}}
+        <button class="btnNav me-2" onclick="window.location.href='/login'">Sign In</button>
+        <button class="btnNav me-2" onclick="window.location.href='/register'">Register</button>
+      {{/if}}
+    </div>
+  </div>
+</nav>

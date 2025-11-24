@@ -1,0 +1,96 @@
+<div class="modal fade" id="userModal-{{user._id}}" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">
+          User Details: {{user.firstName}} {{user.lastName}}
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      {{!-- User delete form --}}
+      <form id="delete-user-form-{{user._id}}" action="/api/users/admin/delete-user/{{user._id}}" method="POST"></form>
+
+      {{!-- Main form --}}
+      <form action="/api/users/admin/update-user/{{user._id}}" method="POST">
+
+        <div class="modal-body container row g-3">
+
+          <!-- First Name -->
+          <div class="col-6">
+            <label>First Name</label>
+            <input class="form-control" name="firstName" value="{{user.firstName}}" required>
+          </div>
+
+          <!-- Last Name -->
+          <div class="col-6">
+            <label>Last Name</label>
+            <input class="form-control" name="lastName" value="{{user.lastName}}" required>
+          </div>
+
+          <!-- Birthdate -->
+          <div class="col-6">
+            <label>Birthday</label>
+            <input type="date" class="form-control" name="birthdate" value="{{formatDate user.birthdate "YYYY-MM-DD"}}"
+              required>
+          </div>
+
+          <!-- Gender -->
+          <div class="col-md-6">
+            <h6 class="mb-2 pb-1">Gender:</h6>
+
+            <div class="form-check form-check-inline">
+              <input type="radio" id="optionFemale" name="gender" class="form-check-input" value="Female" {{#if (eq
+                user.gender "Female" )}}checked{{/if}} />
+              <label class="form-check-label" for="optionFemale">Female</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input type="radio" id="optionMale" name="gender" class="form-check-input" value="Male" {{#if (eq
+                user.gender "Male" )}}checked{{/if}} />
+              <label class="form-check-label" for="optionMale">Male</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input type="radio" id="optionOther" name="gender" class="form-check-input" value="Others" {{#if (eq
+                user.gender "Others" )}}checked{{/if}} />
+              <label class="form-check-label" for="optionOther">Others</label>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="col-6">
+            <label>Email</label>
+            <input type="email" class="form-control" name="email" value="{{user.email}}" required>
+          </div>
+
+          <!-- Phone Number -->
+          <div class="col-6">
+            <label>Phone Number</label>
+            <input type="tel" class="form-control" name="phoneNumber" value="{{user.phoneNumber}}" required>
+          </div>
+
+          <!-- Role -->
+          <div class="col-6">
+            <label>Role</label>
+            <select class="form-control" name="role" id="role">
+              <option value="customer" {{#selectMatch user.role "customer" }}{{/selectMatch}}>Customer</option>
+              <option value="admin" {{#selectMatch user.role "admin" }}{{/selectMatch}}>Admin</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-success" type="submit">
+            Save Changes
+          </button>
+
+          <button type="submit" class="btn btn-danger" form="delete-user-form-{{user._id}}">Delete</button>
+
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>

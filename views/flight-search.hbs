@@ -1,0 +1,32 @@
+<main class="container py-4">
+  <!-- Search Section -->
+  <section class="bg-white rounded-4 shadow-sm p-4 mb-5">
+    {{> search-header
+    header="Find your Flight"
+    subheader="See the air and book for your next trip!"
+    hline=true
+    }}
+
+    {{> search-flight-filter
+    form-id="flight-search-form"
+    search-btn-id="flight-search-button"
+    enable-count=true
+    }}
+  </section>
+
+  <div id="alert-placeholder" class="my-3"></div>
+
+  <!-- Results Section -->
+  {{> display-container
+  header="Departure Flights"
+  hline=true
+  list-id="departure-list"
+  }}
+  {{> display-container
+  header="Return Flights"
+  hline=true
+  list-id="return-list"
+  }}
+</main>
+
+<script src="/js/flight-search.js"></script>

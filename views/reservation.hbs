@@ -1,0 +1,73 @@
+<main class="container py-4">
+  <!-- Flight Details View -->
+  <section class="bg-white rounded-4 shadow-sm p-4 mb-5">
+
+    {{> search-header
+    header='Reserve your vacation now!'
+    subheader='Explore the world, reserve now!'
+    enable-search=true
+    hline=true
+    search-inp-label='Flight number'
+    search-btn-id='search-btn'
+    search-btn-label='Search'
+    }}
+
+    {{> display-flight}}
+  </section>
+
+  <!-- Reservation Body -->
+  <section class="container row mx-auto px-0">
+
+    <!-- Seats & Passengers -->
+    <div class="col col-12 col-lg-8 g-3 px-0 pe-3">
+      <div class="bg-white rounded-4 shadow-sm p-4 mb-5">
+        <h3 class="fw-semibold mb-3">Plane Seating & Passengers</h3>
+
+        <!-- Seat Map -->
+        <div class="plane-seat-map mb-4 d-flex flex-wrap gap-2 justify-content-start" id="seat-map">
+          <!-- Seats will be dynamically generated here -->
+        </div>
+
+
+        <!-- Passenger List -->
+        <div id="passenger-list" class="d-flex flex-column gap-3">
+          <!-- Passenger cards dynamically generated based on selected seats -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing -->
+    <div class="col col-12 col-lg-4 g-3 px-0">
+      <div class="bg-white rounded-4 shadow-sm p-4 mb-5 sticky-top">
+        <h3 class="fw-semibold">Price Details</h3>
+        <div class="p-2">
+          <p>Tickets: $<span id="price-tickets">0</span></p>
+          <p>Baggage: $<span id="price-baggage">0</span></p>
+          <p>Meal: $<span id="price-meal">0</span></p>
+          <hr>
+          <p class="fw-bold">Total: $<span id="price-total">0</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="col-md-8 mt-4 g-3 ps-0 pe-3">
+      <div class="bg-white rounded-4 shadow-sm p-4 mb-5 d-flex justify-content-between">
+        <button id="cancel-btn" class="w-25 btn btn-outline-secondary btn-lg" type="button">Cancel</button>
+        <button id="finish-btn" class="w-25 btn btn-primary btn-lg" type="button">Finish</button>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<!-- JS -->
+
+<script>
+  window.selectedFlight = {{{json flight }}}
+  window.sessionUser = {{{json user }}}
+</script>
+
+
+<script src="/js/reservation.js"></script>

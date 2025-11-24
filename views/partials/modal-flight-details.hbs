@@ -1,0 +1,138 @@
+<div class="modal fade" id="{{#if flight}}detailsModal-{{flight._id}}{{else}}detailsModal{{/if}}" tabindex="-1"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">
+          {{#if flight}}
+          Flight Details: {{flight.flightNumber}}
+          {{else}}
+          Add Flight
+          {{/if}}
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      {{!-- Cancel form (only when editing) --}}
+      {{#if flight}}
+      <form id="cancel-flight-form-{{flight._id}}" action="/api/flights/admin/cancel-flight/{{flight._id}}" method="POST"></form>
+      {{/if}}
+
+      {{!-- Main form --}}
+      <form
+        action="{{#if flight}}/api/flights/admin/update-flight/{{flight._id}}{{else}}/api/flights/admin/create-flight{{/if}}"
+        method="POST">
+
+        <div class="modal-body container row g-3">
+
+          <!-- Flight Number -->
+          <div class="col-6">
+            <label>Flight Number</label>
+            <input class="form-control" name="flightNumber" value="{{flight.flightNumber}}" required>
+          </div>
+
+          <!-- Price -->
+          <div class="col-6">
+            <label>Price</label>
+            <input type="number" class="form-control" name="price" value="{{flight.price}}" required>
+          </div>
+
+          <!-- Airline -->
+          <div class="col-6">
+            <label>Airline</label>
+            <input class="form-control" name="airline" value="{{flight.airline}}" required>
+          </div>
+
+          <!-- Aircraft -->
+          <div class="col-6">
+            <label>Aircraft</label>
+            <select name="aircraftId" class="form-control" required>
+              {{#each aircrafts}}
+              <option value="{{this._id}}" {{#selectMatch this._id ../flight.aircraft}}{{/selectMatch}}>
+                {{this.model}}
+              </option>
+              {{/each}}
+            </select>
+          </div>
+
+          <!-- Origin -->
+          <div class="col-6">
+            <label>Origin</label>
+            <input class="form-control" name="origin" value="{{flight.origin}}" required>
+          </div>
+
+          <!-- Departure -->
+          <div class="col-6">
+            <label>Departure</label>
+            <input type="datetime-local" class="form-control" name="departure"
+              value="{{formatDate flight.departure 'YYYY-MM-DDTHH:mm'}}" required>
+          </div>
+
+          <!-- Destination -->
+          <div class="col-6">
+            <label>Destination</label>
+            <input class="form-control" name="destination" value="{{flight.destination}}" required>
+          </div>
+
+          <!-- Arrival -->
+          <div class="col-6">
+            <label>Arrival</label>
+            <input type="datetime-local" class="form-control" name="arrival"
+              value="{{formatDate flight.arrival 'YYYY-MM-DDTHH:mm'}}" required>
+          </div>
+
+          <!-- Meal Options -->
+          <div class="mb-3">
+            <label>Meal Options</label>
+
+            {{#each mealTemplate}}
+            <div class="input-group mb-1">
+              <div class="input-group-text">
+                <input type="checkbox" name="mealOptions[{{@index}}][enabled]" {{#if this.enabled}}checked{{/if}}>
+              </div>
+
+              <input class="form-control" value="{{this.name}}" readonly>
+              <input type="hidden" name="mealOptions[{{@index}}][name]" value="{{this.name}}">
+              <input type="number" class="form-control" name="mealOptions[{{@index}}][price]" value="{{this.price}}">
+            </div>
+            {{/each}}
+
+          </div>
+
+          <!-- Baggage Options -->
+          <div class="mb-3">
+            <label>Baggage Options</label>
+
+            {{#each baggageTemplate}}
+            <div class="input-group mb-1">
+              <div class="input-group-text">
+                <input type="checkbox" name="baggageOptions[{{@index}}][enabled]" {{#if this.enabled}}checked{{/if}}>
+              </div>
+
+              <input class="form-control" value="{{this.name}}" readonly>
+              <input type="hidden" name="baggageOptions[{{@index}}][name]" value="{{this.name}}">
+              <input type="number" class="form-control" name="baggageOptions[{{@index}}][price]" value="{{this.price}}">
+            </div>
+            {{/each}}
+
+          </div>
+
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-success" type="submit">
+            {{#if flight}}Save Changes{{else}}Create Flight{{/if}}
+          </button>
+
+          {{#if (and flight (neq flight.status "cancelled"))}}
+          <button type="submit" class="btn btn-danger" form="cancel-flight-form-{{flight._id}}">Cancel Flight</button>
+          {{/if}}
+
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>

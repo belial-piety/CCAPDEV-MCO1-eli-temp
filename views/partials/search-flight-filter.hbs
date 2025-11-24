@@ -1,0 +1,48 @@
+<!--Flight Search-->
+<form class="needs-validation" id="{{form-id}}">
+    <div class="row g-3 align-item-end justify-content-between">
+
+        <!--Inputs and their label-->
+
+        <!--Origin-->
+        <div class="col-md-6 col-xl-2 form-floating">
+            <select id="search-origin" class="form-select">
+                <option value="" selected>Any Origin</option>
+            </select>
+            <label for="search-origin">Origin</label>
+        </div>
+
+        <!--Destination-->
+        <div class="col-md-6 col-xl-2 form-floating">
+            <select id="search-destination" class="form-select">
+                <option value="" selected>Any Destination</option>
+            </select>
+            <label for="search-destination">Destination</label>
+        </div>
+
+        <!--Date-->
+        <div class="col-md-6 col-xl-2 form-floating">
+            <input type="date" id="search-departure" class="form-control">
+            <label for="search-departure">Departure Date</label>
+        </div>
+
+        <div class="col-md-6 col-xl-2 form-floating">
+            <input type="date" id="search-return" class="form-control">
+            <label for="search-return">Return Date</label>
+        </div>
+
+        <!-- Count -->
+        {{#if enable-count}}
+        <div class="col-md-6 col-xl-1 form-floating">
+            <input type="number" id="search-count" class="form-control" min="1" max="10" value="1">
+            <label for="search-count">Count</label>
+        </div>
+        {{/if}}
+
+        <!-- Search -->
+        <div class="col-md-6 col-xl-2 d-flex justify-content-center">
+            <button type="button" class="btn btn-primary btn-sm form-button w-100"
+                id="{{search-btn-id}}">Search</button>
+        </div>
+    </div>
+</form>

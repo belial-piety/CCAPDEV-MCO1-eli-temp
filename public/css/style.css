@@ -1,0 +1,141 @@
+/* Target only your custom navbar (ignores Bootstrap) */
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(to top, rgb(2, 109, 189), white);
+}
+
+.images{
+    width: 70px;
+    height:auto;
+}
+.custom-nav {
+  margin-left: auto;   
+  display: flex;       
+  gap: 3rem;           
+}
+
+.custom-nav .nav-linSk {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.custom-nav .nav-link:hover {
+  color: white; 
+}
+
+.custom-nav .nav-link.active {
+  font-weight: 600;
+}
+/* Buttons */
+.btnNav, .btn, #addButton, #flightSearch_button, #adsearch-button_flight, #adsearch-button_Man{
+    background-color: rgb(2, 109, 189);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnNav:hover, .btn:hover,#addButton:hover, #flightSearch_button:hover,
+#adsearch-button_flight:hover, #adsearch-button_Man:hover{
+  background-color: rgb(0, 110, 210); 
+}
+
+.mainClass{
+    text-align: center;
+}
+.title-container{
+   display: flex;
+   align-items: center; 
+   gap: 10px;      
+} 
+.title-container img{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}
+.social-icon img{
+   width : 40px;
+   height : 40px;
+}
+
+.btn_reserve{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn_reserve:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.blue-card{
+    background-color: rgb(0, 62, 105);
+}
+
+.limit-width {
+  max-width: 1300px;
+}
+
+.form-button {
+  height: 55px;
+}
+
+.no-focus:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: rgb(185, 185, 185);
+}
+
+.price-card {
+  top: 4rem;
+}
+
+.passenger-list svg{
+  height: 24px;
+  width: 24px;
+}
+
+.seat-person-selector {
+  scrollbar-color: rgba(0,0,0,0.3) transparent;
+}
+
+.seat-person-selector::-webkit-scrollbar {
+  height: 8px;
+}
+
+.seat-person-selector::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.seat-person-selector::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+.plane-seat-map {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 4px;
+  row-gap: 16px;
+  width: calc(7 * 48px + 6 * 4px + 2 * 4px);
+  max-width: calc(7 * 48px + 6 * 4px + 2 * 4px);
+  padding: 6px;
+  background-color: white;
+}
+
+.plane-seat-map button {
+  background: dodgerblue;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  width: 48px;
+  height: 36px;
+}
